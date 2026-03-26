@@ -1,0 +1,50 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-container {
+  flex: 1; /* takes remaining space */
+  display: flex;
+  justify-content: center; /* horizontal centering */
+  align-items: center; /* vertical centering */
+  background-color: white;
+}
+
+/* Mobile (default) */
+.app-container svg {
+  width: 90vw;
+  height: auto;
+  max-width: 1200px;
+}
+
+/* Tablet and up */
+@media (min-width: 768px) {
+  .app-container svg {
+    width: 70vw;
+  }
+}
+
+/* Desktop and up */
+@media (min-width: 1024px) {
+  .app-container svg {
+    width: 65vw;
+    min-width: 700px; /* 👈 prevents it getting too small */
+  }
+}
+
+/* Footer */
+.footer-container {
+  display: flex;
+  flex-direction: column; /* stack text */
+  justify-content: center;
+  align-items: center; /* centre horizontally */
+  padding: 20px;
+  width: 100%;
+}
+
+.footer-container p {
+  margin: 0;
+  margin-top: 12px;
+}

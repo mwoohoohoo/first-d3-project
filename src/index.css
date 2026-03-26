@@ -1,0 +1,12 @@
+/* index.css */
+#root {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  min-height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+}

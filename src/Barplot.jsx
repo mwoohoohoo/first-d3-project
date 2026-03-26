@@ -56,7 +56,7 @@ const Barplot = ({ data, width = 800, height = 500 }) => {
             transition: "opacity 0.8s ease",
           }}
         >
-          Number of Students per Country
+          Number of Students per Country on d3-React Course
         </text>
 
         {/* X Axis */}
